@@ -8,16 +8,16 @@ export default defineConfig({
   description: "使用天凌系统快速构建后台管理系统",
   ignoreDeadLinks: true,
   head: [
-    ['link', { rel: 'icon', href: '/public/logo.png' }]
+    ['link', { rel: 'icon', href: './logo.svg' }]
   ],
   themeConfig: {
-    logo: '/public/logo.png',
+    logo: '/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
       { text: '系统文档', link: '/views/about', activeMatch: '/views' },
-      { text: 'Gitee', link: 'https://gitee.com/lutianling/tianLing-nest-admin-api',},
-      { text: 'GitHub', link: 'https://gitee.com/lutianling/tianLing-nest-admin-api',},
+      { text: 'Gitee', link: 'https://gitee.com/lutianling/tianLing-nest-admin-api', },
+      { text: 'GitHub', link: 'https://gitee.com/lutianling/tianLing-nest-admin-api', },
     ],
 
     sidebar: [
@@ -42,21 +42,21 @@ export default defineConfig({
           { text: '字典组件', link: '/views/front/document/dictData' },
           { text: '内嵌组件', link: '/views/front/document/iFrame' },
           { text: '上传组件', link: '/views/front/document/upload' },
-          { text: '分页组件', link: '/views/front/document/pagination' },   
-          { text: '富文本组件', link: '/views/front/document/wangEditor' },                   
+          { text: '分页组件', link: '/views/front/document/pagination' },
+          { text: '富文本组件', link: '/views/front/document/wangEditor' },
         ]
       },
       {
         text: '后端手册',
         items: [
-          { text: '系统权限', link: '/views/backend/power' },                   
-          { text: '系统日志', link: '/views/backend/logger' },                   
-          { text: '系统接口🚧', link: '/views/backend/apifox' },                   
-          { text: '参数校验🚧', link: '/views/backend/validator' }, 
-          { text: '响应拦截器', link: '/views/backend/response' }, 
-          { text: '异步上下文', link: '/views/backend/context' }, 
-          { text: '导入导出', link: '/views/backend/excel' }, 
-          { text: '上传下载', link: '/views/backend/upload' },           
+          { text: '系统权限', link: '/views/backend/power' },
+          { text: '系统日志', link: '/views/backend/logger' },
+          { text: '系统接口🚧', link: '/views/backend/apifox' },
+          { text: '参数校验🚧', link: '/views/backend/validator' },
+          { text: '响应拦截器', link: '/views/backend/response' },
+          { text: '异步上下文', link: '/views/backend/context' },
+          { text: '导入导出', link: '/views/backend/excel' },
+          { text: '上传下载', link: '/views/backend/upload' },
         ]
       }
     ],
@@ -72,7 +72,7 @@ export default defineConfig({
 
     outline: {
       label: '页面导航',
-      level:'deep'
+      level: 'deep'
     },
     lastUpdated: {
       text: '最后更新于',

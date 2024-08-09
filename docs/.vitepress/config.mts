@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/tianLing-nest-admin-docs/',
   title: "天凌后台管理系统文档",
   description: "使用天凌系统快速构建后台管理系统",
+  ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/public/logo.png' }]
   ],

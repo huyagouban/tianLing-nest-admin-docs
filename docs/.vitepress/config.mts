@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
-  base: '/docs/',
+  base: '/tianLing-nest-admin-docs/',
   title: "天凌后台管理系统文档",
   description: "使用天凌系统快速构建后台管理系统",
   head: [

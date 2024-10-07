@@ -17,7 +17,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '系统文档', link: '/views/about', activeMatch: '/views' },
       { text: 'Gitee', link: 'https://gitee.com/lutianling/tianLing-nest-admin-api', },
-      { text: 'GitHub', link: 'https://gitee.com/lutianling/tianLing-nest-admin-api', },
+      { text: 'GitHub', link: 'https://github.com/huyagouban/tianLing-nest-admin-api', },
     ],
 
     sidebar: [
